@@ -13,7 +13,6 @@ import NavbarThemeSwitcher from '@/layouts/components/NavbarThemeSwitcher.vue'
 import UserProfile from '@/layouts/components/UserProfile.vue'
 
 // Banner
-
 const vuetifyTheme = useTheme()
 /*
 const upgradeBanner = computed(() => {
@@ -141,6 +140,13 @@ const upgradeBanner = computed(() => {
           title: 'Cards',
           icon: 'mdi-credit-card-outline',
           to: '/cards',
+        }"
+      />
+      <VerticalNavLink
+        :item="{
+          title: 'Germán',
+          icon: 'mdi-emoticon-happy-outline',
+          to: '/prueba',
         }"
       />
       <VerticalNavLink
